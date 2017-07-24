@@ -1,0 +1,39 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot for Telegram Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro-bot -p ${PORT}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryhp17/telegram-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "node",
+    "telegraf",
+    "micro-bot"
+  ],
+  "author": "HP",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/henryhp17/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/henryhp17/telegram-bot#readme",
+  "dependencies": {
+    "micro-bot": "^1.3.1",
+    "telegraf": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
